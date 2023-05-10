@@ -40,6 +40,8 @@ For extracting adverbs ending in -ly that have been directly translated as adver
     pages = "3868--3888",
     abstract = "This work presents a new resource for borrowing identification and analyzes the performance and errors of several models on this task. We introduce a new annotated corpus of Spanish newswire rich in unassimilated lexical borrowings{---}words from one language that are introduced into another without orthographic adaptation{---}and use it to evaluate how several sequence labeling models (CRF, BiLSTM-CRF, and Transformer-based models) perform. The corpus contains 370,000 tokens and is larger, more borrowing-dense, OOV-rich, and topic-varied than previous corpora available for this task. Our results show that a BiLSTM-CRF model fed with subword embeddings along with either Transformer-based embeddings pretrained on codeswitched data or a combination of contextualized word embeddings outperforms results obtained by a multilingual BERT-based model.",
 }
+
+
 @InProceedings{TIEDEMANN12.463,
   author = {Jörg Tiedemann},
   title = {Parallel Data, Tools and Interfaces in OPUS},
@@ -53,6 +55,8 @@ For extracting adverbs ending in -ly that have been directly translated as adver
   isbn = {978-2-9517408-7-7},
   language = {english}
  }
+ 
+ 
  @article{costa2022no,
   title={No language left behind: Scaling human-centered machine translation},
   author={Costa-juss{\`a}, Marta R and Cross, James and {\c{C}}elebi, Onur and Elbayad, Maha and Heafield, Kenneth and Heffernan, Kevin and Kalbassi, Elahe and Lam, Janice and Licht, Daniel and Maillard, Jean and others},
