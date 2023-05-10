@@ -2,7 +2,7 @@
 
 In the github we collect the materials used for our Final Project of the course Machine Translation and Multilingualism.
 
-##Corpora
+## Corpora
 
 For this project we have used the News Commentary v16 parallel corpus in its' English-Spanish version. This corpus is available in [Open Corpus](https://opus.nlpl.eu/News-Commentary.php). It is 
 a parallel corpus of translated news and it includes a total of 16 languages. This corpus was downloaded in TMX format and aligned into a CSV using XBench.
@@ -11,22 +11,22 @@ We translated this corpus using the [facebook/nllb-200-distilled-600M](https://h
 
 This way we have obtained a CSV containing on one column the source English version and in two other columns the original Spanish translation and the Machine Translated version of the text. This is available here.
 
-##Extraction of the patterns
+## Extraction of the patterns
 We have extracted three different patterns that could potentially change due to the extensive use of MT systems: 1) lexical borrowings, 2) verb+preposition collocations and 3) adverbs ending in -ly that are directly translated as -mente.
 
-###Lexical Borrowings
+### Lexical Borrowings
 
 For the extraction of lexical borrowings we have used the [mBERT Lázaro model available in Huggingface](https://huggingface.co/lirondos/anglicisms-spanish-mbert), which is a model trained to detect lexical anglicisms in Spanish newswire.
 
 Since the model tends to give false positives, we cleaned the results manually. We present the script we used to do the first manual extraction along with the final clean annotated CSV here.
 
-###Incorrect verb + preposition collocations
+### Incorrect verb + preposition collocations
 For extracting verb-preposition collocations we have using bigrams that followed the VERB-ADP pattern. We provide the corresponding code and results in the folder XXX.
 
-###Literal Translation of Adverbs
+### Literal Translation of Adverbs
 For extracting adverbs ending in -ly that have been directly translated as adverbs ending in -mente in Spanish we have used our own python scripts. We provide the corresponding code and obtained output in the folder XXXX.
 
-##References
+## References
 @inproceedings{alvarez-mellado-lignos-2022-detecting,
     title = "Detecting Unassimilated Borrowings in {S}panish: {A}n Annotated Corpus and Approaches to Modeling",
     author = "{\'A}lvarez-Mellado, Elena  and
