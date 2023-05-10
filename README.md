@@ -21,7 +21,7 @@ For the extraction of lexical borrowings we have used the [mBERT Lázaro model a
 Since the model tends to give false positives, we cleaned the results manually. We present the script we used to do the first manual extraction along with the final clean annotated CSV here.
 
 ### Incorrect verb + preposition collocations
-For extracting verb-preposition collocations we have using bigrams that followed the VERB-ADP pattern. We provide the corresponding code and results in the folder XXX.
+For extracting verb-preposition collocations we have using bigrams that followed the VERB-ADP pattern. We provide the corresponding code and results in the folder [VERB-PREPOSITIONS].
 
 ### Literal Translation of Adverbs
 For extracting adverbs ending in -ly that have been directly translated as adverbs ending in -mente in Spanish we have used our own python scripts. We provide the corresponding code and obtained output in the folder XXXX.
