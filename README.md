@@ -5,9 +5,9 @@ In the github we collect the materials used for our Final Project of the course 
 ## Corpora
 
 For this project we have used the News Commentary v16 parallel corpus in its' English-Spanish version. This corpus is available in [Open Corpus](https://opus.nlpl.eu/News-Commentary.php). It is 
-a parallel corpus of translated news and it includes a total of 16 languages. This corpus was downloaded in TMX format and aligned into a CSV using XBench.
+a parallel corpus of translated news and it includes a total of 16 languages (Tiedemann, 2012). This corpus was downloaded in TMX format and aligned into a CSV using XBench.
 
-We translated this corpus using the [facebook/nllb-200-distilled-600M](https://huggingface.co/facebook/nllb-200-distilled-600M) model available in Huggingface.
+We translated this corpus using the [facebook/nllb-200-distilled-600M](https://huggingface.co/facebook/nllb-200-distilled-600M) model available in Huggingface (NLLB Team, 2022).
 
 This way we have obtained a CSV containing on one column the source English version and in two other columns the original Spanish translation and the Machine Translated version of the text. This is available [here](https://github.com/cristinaa23/MT_assignment/tree/main/Translated%20Corpus).
 
