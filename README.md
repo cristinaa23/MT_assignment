@@ -16,7 +16,7 @@ We have extracted three different patterns that could potentially change due to 
 
 ### Lexical Borrowings
 
-For the extraction of lexical borrowings we have used the [mBERT Lázaro model available in Huggingface](https://huggingface.co/lirondos/anglicisms-spanish-mbert), which is a model trained to detect lexical anglicisms in Spanish newswire.
+For the extraction of lexical borrowings we have used the [mBERT Lázaro model available in Huggingface](https://huggingface.co/lirondos/anglicisms-spanish-mbert), which is a model trained to detect lexical anglicisms in Spanish newswire (Álvarez-Mellado et al., 2022).
 
 Since the model tends to give false positives, we cleaned the results manually. We present the script we used to do the first manual extraction along with the final clean annotated CSV [here](https://github.com/cristinaa23/MT_assignment/tree/main/Extraction%20of%20Borrowings).
 
